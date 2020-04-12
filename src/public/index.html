@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../app/main.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+<div class = "graphstyle">
+
+
+    <div>
+        <table id="table" class="table"></table>
+
+<div id="input"
+     class="graphVertex">
+
+
+    <input id = "textfield1" class="vertexInput"/>
+
+    <input id = "textfield2" class="vertexInput"/>
+
+    <input id = "textfield3" class="vertexInput"/>
+
+    <button id="plusButton" class="button">+</button>
+
+    <div class="radioBut">
+        <form>
+            <input type="radio" id="bivalent" name="gender" value="bivalent">
+            <label for="bivalent">Bivalent threshold function</label><br>
+            <input type="radio" id="hyperbolic" name="gender" value="hyperbolic">
+            <label for="hyperbolic">Hyperbolic tangent threshold function</label><br>
+        </form>
+    <button id="modelButton">
+        Смоделировать
+    </button>
+    </div>
+    <div class = "radioBut">
+    <div>
+    <text id ="densityField" class="text">
+        Density:
+    </text>
+    </div>
+
+    <div>
+        <text id ="transmittersField" class="text">
+            Transmitters:
+        </text>
+    </div>
+
+    <div>
+        <text id ="hIndexField" class="text">
+            Hierarchical index:
+        </text>
+    </div>
+    <div>
+        <table id="forVectors" class="table"></table>
+    </div>
+    </div>
+
+
+</div>
+    </div>
+    <div id="paper"></div>
+
+    </div>
+
+
+<div>
+
+</div>
+
+
+
+
+
+<canvas id="myChart" width="400" height="100"></canvas>
+
+
+</body>
+
+</html>
